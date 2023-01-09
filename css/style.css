@@ -1,0 +1,141 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 60px 0;
+}
+
+.caixaHeader {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 10%;
+  position: absolute;
+  top: -48px;
+}
+
+nav {
+  position: absolute;
+  top: -12px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 80px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff719f;
+  font-size: 21px;
+}
+
+main {
+  background-image: linear-gradient(to right, #a3bafe, #e782fc);
+}
+
+.principal {
+  padding: 4em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.tituloBanner {
+  color: #000000;
+  font-size: 25px;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-right: 14%;
+  margin-top: 10%;
+}
+.tituloBanner span {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.fotoPerfil {
+  width: 45%;
+}
+
+.sobreMim {
+  padding: 4em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.gifLoading {
+  width: 30%;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.tituloSobre {
+  text-align: center;
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 2.5em;
+}
+
+.sobreMim p {
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-left: 19%;
+}
+
+.tituloHabilidades {
+  text-align: center;
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 2.5em;
+}
+
+.habilidades{
+    width: 940px;
+    margin: auto;
+    padding:80px 0;
+}
+
+.habilidades li{
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    border: 3px solid #080C09;
+    border-radius: 10px;
+}
+
+.logoTecnologias{
+    width: 40%;
+    padding: 10px 0;
+}
+
+.tituloTecnologias{
+    font-size: 20px;
+    font-weight: 500;
+}
