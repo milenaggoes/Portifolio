@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff719f;
+  color:  #e782fc;
   font-size: 21px;
 }
 
@@ -48,7 +48,7 @@ main {
 }
 
 .principal {
-  padding: 4em 0;
+  padding: 3em 0;
   width: 940px;
   margin: 0 auto;
 }
@@ -73,7 +73,7 @@ main {
 }
 
 .sobreMim {
-  padding: 4em 0;
+  padding: 3em 0;
   width: 940px;
   margin: 0 auto;
 }
@@ -111,31 +111,95 @@ main {
   margin: 0 0 2.5em;
 }
 
-.habilidades{
-    width: 940px;
-    margin: auto;
-    padding:80px 0;
+.habilidades {
+  width: 940px;
+  margin: auto;
+  padding: 80px 0;
 }
 
-.habilidades li{
-    display: inline-block;
-    text-align: center;
-    width: 21%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    margin-bottom: 2%;
-    border: 3px solid #080C09;
-    border-radius: 10px;
+.habilidades li {
+  display: inline-block;
+  text-align: center;
+  width: 21%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  border: 3px solid #080c09;
+  border-radius: 10px;
 }
 
-.logoTecnologias{
-    width: 40%;
-    padding: 10px 0;
+.logoTecnologias {
+  width: 40%;
+  padding: 10px 0;
 }
 
-.tituloTecnologias{
-    font-size: 20px;
-    font-weight: 500;
+.tituloTecnologias {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.projetos{
+  width: 940px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.tituloProjetos{
+  text-align: center;
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 1.5em;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+}
+
+.slide img{
+  width: 880px;
+}
+
+.manual-navegation{
+  position: absolute;
+  width: 880px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background-color: #fff;
 }
