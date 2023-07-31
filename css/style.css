@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-body{
-  font-family: 'Archivo', sans-serif;
+body {
+  font-family: 'Lato', sans-serif;
   height: 100vh;
   box-sizing: border-box;
 }
+
 .cabecalho {
   background-color: #EEDCEA;
   padding: 15px 0;
 }
 
 .cabecalho-logo {
-  width: 80px;
-  height: 80px;
+  width: 5%;
+
 }
 
 .cabecalho-lista {
@@ -25,7 +27,7 @@ body{
 .cabecalho-menu {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: min(20px, 3vw);
 }
 
 
@@ -38,18 +40,40 @@ body{
 }
 
 
-
 .inicio-titulo {
-  font-size: 40px;
+  font-size: min(45px, 4vw);
   color: #000;
- 
+  line-height: 150%;
 }
 
-.sobre{
-  background-color:#B788BC; 
-  color: #000;
-  line-height: 25px;
-  font-size: 15px;
-  padding: 0 80px 0 80px ;
+span {
+  color: #50367E;
+  font-size: min(50px, 6vw);
+
 }
 
+.sobre {
+  background-color: #ffff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9% 0;
+}
+
+.sobre-titulo{
+  font-size: min(25px, 4vw);
+}
+
+.sobre-perfil{
+  width: 15%;
+  margin: 3% 0;
+}
+
+.sobre-texto {
+  font-size: min(18px, 3.2vw);
+  padding: 0 20%;
+  font-family: 'Lora', serif;
+  line-height: 170%;
+
+}
