@@ -27,7 +27,7 @@ body {
 .cabecalho-menu {
   text-decoration: none;
   color: black;
-  font-size: min(20px, 3vw);
+  font-size: min(18px, 3vw);
 }
 
 
@@ -41,14 +41,14 @@ body {
 
 
 .inicio-titulo {
-  font-size: min(35px, 4vw);
+  font-size: min(30px, 4vw);
   color: #000;
   line-height: 160%;
 }
 
 span {
   color: #50367E;
-  font-size: min(45px, 6vw);
+  font-size: min(40px, 6vw);
 
 }
 
@@ -58,8 +58,8 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 9% 0;
-  gap: max(20px, 4vw);
+  padding: 5% 0;
+  gap: max(18px, 5vw);
 
 }
 .sobre-titulo{
@@ -68,14 +68,29 @@ span {
 
 .sobre-perfil{
   width: 18%;
-  
-  
 }
 
 .sobre-texto {
   font-size: min(18px, 3.2vw);
-  padding: 0 20%;
+  padding: 0 15%;
   font-family: 'Lora', serif;
   line-height: 170%;
 
+}
+
+.sobre-contato{
+  display: flex;
+  gap: 155px;
+
+}
+
+.sobre-contato-link {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #905EB3;
+  width: 150px;
+  border-radius: 18px;
+  padding: 10px;
+  gap: 13px;
+  text-decoration: none;
 }
