@@ -148,3 +148,20 @@ span {
   filter: brightness(1.5);
   background-color: #50367E;
 }
+
+.container{
+  position: relative ;
+  padding: 15px;
+  margin: 0 auto;
+  margin: 0 10%;
+}
+
+.gallery-wrapper{
+  overflow-x: auto;
+}
+
+.gallery{
+  display:flex ;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
