@@ -149,19 +149,26 @@ span {
   background-color: #50367E;
 }
 
-.container{
+.projetos{
+  background-color: #FFF0F5;
   position: relative ;
   padding: 15px;
   margin: 0 auto;
   margin: 0 10%;
+
 }
 
-.gallery-wrapper{
+.projetos-galeria{
   overflow-x: auto;
 }
 
-.gallery{
+.projetos-galeria-conteudo{
   display:flex ;
   flex-flow: row nowrap;
   gap: 15px;
+  
+}
+
+.item:hover{
+  filter: brightness(1.8);
 }
